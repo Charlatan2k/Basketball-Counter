@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-around;
+  background-color: #111827;
+  color: #ffffff;
+  width: 500px;
+  height: 400px;
+}
+
+button {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.homeBoard,
+.guestBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBoard h3,
+.guestBoard h3 {
+  font-size: 25px;
+}
+
+.score_btns {
+  display: flex;
+  gap: 10px;
+}
+
+.homeScore,
+.guestScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  background-color: black;
+  height: 100px;
+  width: 150px;
+  color: #f94f6d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Arial, Helvetica, sans-serif';
+}
