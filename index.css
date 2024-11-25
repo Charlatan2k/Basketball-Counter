@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
+  background-color: #111827;
 }
 
 .container {
@@ -27,26 +28,26 @@ button {
   cursor: pointer;
 }
 
-.homeBoard,
-.guestBoard {
+.home-board,
+.guest-board {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.homeBoard h3,
-.guestBoard h3 {
+.home-board h3,
+.guest-board h3 {
   font-size: 25px;
 }
 
-.score_btns {
+.score-btns {
   display: flex;
   gap: 10px;
 }
 
-.homeScore,
-.guestScore {
+.home-score-container,
+.guest-score-container {
   display: flex;
   justify-content: center;
   align-items: center;

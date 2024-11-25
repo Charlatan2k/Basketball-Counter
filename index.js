@@ -1,6 +1,6 @@
-let homeScore = document.getElementById('homeScore');
-let guestScore = document.getElementById('guestScore');
-let newGameButton = document.getElementById('ng_btn');
+let homeScore = document.getElementById('home-score');
+let guestScore = document.getElementById('guest-score');
+let newGameButton = document.getElementById('ng-btn');
 
 let homeResult = 0;
 let guestResult = 0;
